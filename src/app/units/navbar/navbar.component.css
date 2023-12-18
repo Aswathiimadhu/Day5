@@ -1,0 +1,8 @@
+.nav1{
+    background-color: rgb(49, 128, 128);
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red(186,193,200);
+}

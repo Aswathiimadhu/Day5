@@ -1,0 +1,25 @@
+.box{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(122, 162, 135);
+    padding: 40px;
+    color:rgb(60,30,210);
+    height: 600px;
+    overflow: scroll;
+    margin-top: 50px;
+    font-style: oblique;
+    font-size: medium;
+    
+}
+ i{
+cursor: pointer;
+}
+.compl{
+    text-decoration: line-through;
+    color: rgb(72, 105, 131);
+}
+input[type=checkbox]:checked + p.strikethrough{
+    text-decoration: line-through;
+    color: red;
+}
